@@ -27,9 +27,11 @@ Make our own `.env`
 `cp .env.example .env` 
 
 
+
 Generate a Key for the application
 
 `php artisan key:generate`
+
 
 
 `npm install`

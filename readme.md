@@ -40,19 +40,20 @@ Then navigate to wherever the application lives and you should see the Vue Appli
 ## Project Structure
 
 `/resources/`
+***
 
   &nbsp;&nbsp;`/assets/js/` Here lives all of your JavaScript for the Front End of the application
 
   &nbsp;&nbsp;&nbsp;&nbsp;`/components/` Here is where we will place new Vue Components, an example is already there for you.
 
-  &nbsp;&nbsp;&nbsp;&nbsp;`/config/` Any config .js files you need, a base [Axios](https://github.com/axios/axios) config is here already. You can create more Axios configs simply by following the same conventions laid out in this file. 
+  &nbsp;&nbsp;&nbsp;&nbsp;`/config/` Any config .js files you need, a base [Axios](https://github.com/axios/axios) config is here already. You can create more Axios configs &nbsp;&nbsp;simply by following the same conventions laid out in this file. 
 
   &nbsp;&nbsp;&nbsp;&nbsp;`/router/` The `index.js` of this directory is used to set all routes and rules for the `vue-router` we use.
 
   &nbsp;&nbsp;&nbsp;&nbsp;`/stylus/` The Vuetify styling is in here, we need not worry about it.
     
-  &nbsp;&nbsp;&nbsp;&nbsp;`/app.js` This is the main driver of the frontend application, unless you are adding new node modules to it, this should work out of the box.
+  &nbsp;&nbsp;&nbsp;&nbsp;`/app.js` This is the main driver of the frontend application, unless you are adding new node modules to it, this &nbsp;&nbsp;should work out of the box.
     
-  &nbsp;&nbsp;&nbsp;&nbsp;`/App.vue` This is the main Vue component. It is a toolbar, nav-drawer, and footer with a router view in the middle where other components are displayed.
+  &nbsp;&nbsp;&nbsp;&nbsp;`/App.vue` This is the main Vue component. It is a toolbar, nav-drawer, and footer with a router view in the middle &nbsp;&nbsp;where other components are displayed.
   
   &nbsp;&nbsp;`/views/app.blade.php` This is a simple file that has our Vue application dropped into it.

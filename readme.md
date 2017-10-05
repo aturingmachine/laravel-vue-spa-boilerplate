@@ -34,11 +34,7 @@ Generate a Key for the application
 
 _alternatively_ 
 
-`npm run watch`
-
-
-
-_`npm run watch` will watch for changes made to the JS section of the build_
+`npm run watch` _This will watch for changes made to the JS section of the build_
 
 Then navigate to wherever the application lives and you should see the Vue Application.
 

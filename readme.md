@@ -16,7 +16,9 @@ Assuming you have PHP, MySQL, and a Web Server installed (or you are using a Vag
 
 `git clone https://github.com/aturingmachine/laravel-vue-spa-boilerplate.git <directory name>`
 
-**IF YOU ARE USING A VAGRANT MACHINE DO THESE COMMANDS INSIDE THE VM**
+`cd <directory name>`
+
+If you are using a VM these commands can be executed from the proper directory in the VM
 
 Then 
 

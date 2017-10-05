@@ -23,9 +23,11 @@ If you are using a VM the following commands can be executed from the proper dir
 Then 
 
 Make our own `.env`
+
 `cp .env.example .env` 
 
 Generate a Key for the application
+
 `php artisan key:generate`
 
 `npm install`
@@ -34,7 +36,7 @@ Generate a Key for the application
 
 `npm run dev` _This should be done after any changes to the Vue application_
 
-_alternatively_ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_alternatively_ 
 
 `npm run watch` _This will watch for changes made to the JS section of the build_
 

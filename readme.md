@@ -82,7 +82,7 @@ Some Dependencies in this application that may differ from a base VueJS install 
 * [vue-router](https://github.com/vuejs/vue-router) To route views with the SPA
 
 2. Composer
-* [barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (To uninstall check the documentation)
+* [barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (This is on by default, to disable it just follow the documentation)
 
 ***
 

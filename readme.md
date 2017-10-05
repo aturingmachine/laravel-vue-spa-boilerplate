@@ -39,6 +39,8 @@ Then navigate to wherever the application lives and you should see the Vue Appli
 
 ## Project Structure
 
+### Frontend
+
 `/resources/`
 
   &nbsp;&nbsp;`/assets/js/` Here lives all of your JavaScript for the Front End of the application
@@ -56,3 +58,10 @@ Then navigate to wherever the application lives and you should see the Vue Appli
   &nbsp;&nbsp;&nbsp;&nbsp;`/App.vue` This is the main Vue component. It is a toolbar, nav-drawer, and footer with a router view in the middle &nbsp;&nbsp;&nbsp;&nbsp;where other components are displayed.
   
   &nbsp;&nbsp;`/views/app.blade.php` This is a simple file that has our Vue application dropped into it.
+
+### Backend
+
+The backend of this project follows the same conventions of Laravel. I suggest looking into their documentation and familiarizing yourself with the `php artisan` commands. They are used to create everything you need including **Models, Migrations, and Controllers**.
+
+## Notes
+  This project appears to be mostly CSS which is due to the Vuetify Styling being hardcoded into it. If this ever needs to change simply add a `.stylus(<source of stylus>, <CSS output>)`. This will pack the CSS however due to laravel-mix it will fail, running the `npm run *` again will succesfully build the project as it can now find the compiled CSS.

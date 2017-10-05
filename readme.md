@@ -1,4 +1,4 @@
-# laravel-vue-spa-boilerplate
+# Laravel With Vue/Vueitfy Single Page Application Boilerplate
 
 ## About
 

@@ -67,4 +67,4 @@ Then navigate to wherever the application lives and you should see the Vue Appli
 The backend of this project follows the same conventions of Laravel. I suggest looking into their documentation and familiarizing yourself with the `php artisan` commands. They are used to create everything you need including **Models, Migrations, and Controllers**.
 
 ## Notes
-  This project appears to be mostly CSS which is due to the Vuetify Styling being hardcoded into it. If this ever needs to change simply add a `.stylus(<source of stylus>, <CSS output>)`. This will pack the CSS however due to laravel-mix it will fail, running the `npm run *` again will succesfully build the project as it can now find the compiled CSS.
+  This project appears to be mostly CSS which is due to the Vuetify Styling being hardcoded into it. If this ever needs to change simply add a `.stylus(<source of stylus>, <CSS output>)` to the `webpack.mix.js` file in the root of the project. This will pack the CSS however due to laravel-mix it will fail, running the `npm run *` again will succesfully build the project as it can now find the compiled CSS.

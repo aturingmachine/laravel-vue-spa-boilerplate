@@ -31,6 +31,7 @@ Generate a Key for the application
 `composer install`
 
 `npm run dev` _alternatively_ `npm run watch`
+
 _This should be done after any changes to the Vue application_
 
 _`npm run watch` will watch for changes made to the JS section of the build_

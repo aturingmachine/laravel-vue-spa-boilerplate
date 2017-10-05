@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet" type="text/css">
   </head>
   <body>
+  <!-- This is the entire application -->
     <div id="app"><app></app></div>
     <script src="../js/app.js"></script>
   </body>

@@ -1,8 +1,12 @@
 <template>
+
+<!-- This is the container for the card that holds the content on this page -->
   <v-container fluid class="pa-0">
+
     <v-toolbar>
       <v-toolbar-title> Welcome To Your Single Page Application</v-toolbar-title>
     </v-toolbar>
+
       <v-card tile>
         <v-card-title>
 
@@ -15,6 +19,7 @@
       </v-card>
 
   </v-container>
+
 </template>
 
 <script>

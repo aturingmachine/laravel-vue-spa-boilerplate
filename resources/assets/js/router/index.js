@@ -14,7 +14,7 @@ const router = new Router ({
       name: 'home',
       component: homePage
     }
-    //any more routes you need should follow the previos format
+    //any more routes you need should follow the previous format
   ]
 })
 

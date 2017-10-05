@@ -78,11 +78,11 @@ The backend of this project follows the same conventions of Laravel. I suggest l
 Some Dependencies in this application that may differ from a base VueJS install or Laravel install include:
 
 1. NPM
-⋅⋅* [vue-cookie](https://github.com/alfhen/vue-cookie) To help manipulate cookies on the frontend
-⋅⋅* [vue-router](https://github.com/vuejs/vue-router) To route views with the SPA
+* [vue-cookie](https://github.com/alfhen/vue-cookie) To help manipulate cookies on the frontend
+* [vue-router](https://github.com/vuejs/vue-router) To route views with the SPA
 
 2. Composer
-⋅⋅* [barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (To uninstall check the documentation)
+* [barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (To uninstall check the documentation)
 
 ***
 

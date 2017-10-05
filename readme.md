@@ -41,7 +41,7 @@ Install all our dependencies:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`npm run dev` _This should be done after any changes to the Vue application_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_alternatively_ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _alternatively_ 
 
 &nbsp;&nbsp;&nbsp;&nbsp;`npm run watch` _This will watch for changes made to the JS section of the build_
 

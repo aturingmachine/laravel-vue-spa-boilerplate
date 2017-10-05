@@ -7,7 +7,7 @@ This is a boilerplate project for applications using a Laravel Backend with a Si
 ### Assumptions
 This project assumes the user has a base knowledge of Laravel and VueJS, documentation can be found here:
 * [Laravel](https://laravel.com/)
-* [VueJS] (https://vuejs.org/)
+* [VueJS](https://vuejs.org/)
 
 The styling for the frontend is done using [Vuetify](https://vuetifyjs.com/), exploring this documentation will help you understand the components and tags used in the frontend.
 

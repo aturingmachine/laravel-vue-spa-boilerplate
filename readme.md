@@ -18,7 +18,7 @@ Assuming you have PHP, MySQL, and a Web Server installed (or you are using a Vag
 
 `cd <directory name>`
 
-If you are using a VM these commands can be executed from the proper directory in the VM
+If you are using a VM the following commands can be executed from the proper directory in the VM
 
 Then 
 

@@ -20,29 +20,31 @@ Assuming you have PHP, MySQL, and a Web Server installed (or you are using a Vag
 
 If you are using a VM the following commands can be executed from the proper directory in the VM
 
-Then 
+Then:
 
 Make our own `.env`
 
-`cp .env.example .env` 
+&nbsp;&nbsp;&nbsp;&nbsp;`cp .env.example .env` 
+
 
 
 
 Generate a Key for the application
 
-`php artisan key:generate`
+&nbsp;&nbsp;&nbsp;&nbsp;`php artisan key:generate`
 
 
 
-`npm install`
 
-`composer install`
+&nbsp;&nbsp;&nbsp;&nbsp;`npm install`
 
-`npm run dev` _This should be done after any changes to the Vue application_
+&nbsp;&nbsp;&nbsp;&nbsp;`composer install`
+
+&nbsp;&nbsp;&nbsp;&nbsp;`npm run dev` _This should be done after any changes to the Vue application_
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_alternatively_ 
 
-`npm run watch` _This will watch for changes made to the JS section of the build_
+&nbsp;&nbsp;&nbsp;&nbsp;`npm run watch` _This will watch for changes made to the JS section of the build_
 
 Then navigate to wherever the application lives and you should see the Vue Application.
 

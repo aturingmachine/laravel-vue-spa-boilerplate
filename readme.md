@@ -22,19 +22,18 @@ If you are using a VM the following commands can be executed from the proper dir
 
 Then:
 
-Make our own `.env`
+Make our own `.env`:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`cp .env.example .env` 
 
 
 
 
-Generate a Key for the application
+Generate a Key for the application:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`php artisan key:generate`
 
-
-
+Install all our dependencies:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`npm install`
 
@@ -73,6 +72,16 @@ Then navigate to wherever the application lives and you should see the Vue Appli
 ### Backend
 
 The backend of this project follows the same conventions of Laravel. I suggest looking into their documentation and familiarizing yourself with the `php artisan` commands. They are used to create everything you need including **Models, Migrations, and Controllers**.
+
+### Dependencies 
+
+Some Dependencies in this application that may differ from a base VueJS install or Laravel install include:
+
+*[vue-cookie](https://github.com/alfhen/vue-cookie) To help manipulate cookies on the frontend
+*[vue-router](https://github.com/vuejs/vue-router) To route views with the SPA
+*[barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (To uninstall check the documentation)
+
+***
 
 ## Notes
   This project appears to be mostly CSS which is due to the Vuetify Styling being hardcoded into it. If this ever needs to change simply add a `.stylus(<source of stylus>, <CSS output>)` to the `webpack.mix.js` file in the root of the project. This will pack the CSS however due to laravel-mix it will fail, running the `npm run *` again will succesfully build the project as it can now find the compiled CSS.

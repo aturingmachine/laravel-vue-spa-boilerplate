@@ -40,6 +40,7 @@ Generate a Key for the application:
 
 &nbsp;&nbsp;&nbsp;&nbsp;`php artisan key:generate`
 
+Build the Javascript
 
 &nbsp;&nbsp;&nbsp;&nbsp;`npm run dev` _This should be done after any changes to the Vue application_
 

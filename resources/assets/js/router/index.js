@@ -13,6 +13,10 @@ const router = new Router ({
       path: '/home',
       name: 'home',
       component: homePage
+    },
+    {
+      path: '/*',
+      redirect: '/home'
     }
     //any more routes you need should follow the previous format
   ]

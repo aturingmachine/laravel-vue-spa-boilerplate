@@ -86,8 +86,3 @@ Some Dependencies in this application that may differ from a base VueJS install 
 
 2. Composer
 * [barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (This is on by default, to disable it just follow the documentation)
-
-***
-
-## Notes
-  This project appears to be mostly CSS which is due to the Vuetify Styling being hardcoded into it. If this ever needs to change simply add a `.stylus(<source of stylus>, <CSS output>)` to the `webpack.mix.js` file in the root of the project. This will pack the CSS however due to laravel-mix it will fail, running the `npm run *` again will succesfully build the project as it can now find the compiled CSS.

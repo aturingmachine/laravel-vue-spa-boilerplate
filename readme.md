@@ -86,3 +86,7 @@ Some Dependencies in this application that may differ from a base VueJS install 
 
 2. Composer
 * [barrvdh/cors](https://github.com/barryvdh/laravel-cors) To enable CORS on the server side if needed (This is on by default, to disable it just follow the documentation)
+
+### Contributing
+
+All contributions are appreciated, simply follow the guidelines laid out in the [guide](https://github.com/aturingmachine/laravel-vue-spa-boilerplate/blob/master/CONTRIBUTING.md).

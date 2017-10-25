@@ -12,4 +12,5 @@ yarn-error.log
 .env
 /public/js
 /public/css
+/public/main.styl
 npm-*

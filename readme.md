@@ -44,11 +44,7 @@ Build the Javascript
 
 &nbsp;&nbsp;&nbsp;&nbsp;`npm run dev` _This should be done after any changes to the Vue application_
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _alternatively_ 
-
-&nbsp;&nbsp;&nbsp;&nbsp;`npm run watch` _This will watch for changes made to the JS section of the build_
-
-Then navigate to wherever the application lives and you should see the Vue Application.
+Then navigate to the url set in your `Homestead.yaml` or wherever you may have it living to see the Vue Application.
 
 ## Project Structure
 
